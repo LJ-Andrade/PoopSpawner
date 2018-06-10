@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\DragRigidbody.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Goal.cs" />
+     <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PoopSpawner.cs" />
  <Reference Include="UnityEditor.StandardEvents">
