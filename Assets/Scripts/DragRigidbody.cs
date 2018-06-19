@@ -18,7 +18,7 @@ namespace UnityStandardAssets.Utility
 		private void Update()
 		{
 
-			if (!Input.GetMouseButtonDown(0))
+			if (!Input.GetMouseButtonDown(1))
 			{
 				return;
 			}
@@ -66,7 +66,7 @@ namespace UnityStandardAssets.Utility
 			m_SpringJoint.connectedBody.drag = k_Drag;
 			m_SpringJoint.connectedBody.angularDrag = k_AngularDrag;
 			var mainCamera = FindCamera();
-			while (Input.GetMouseButton(0))
+			while (Input.GetMouseButton(1))
 			{
 				var ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 				m_SpringJoint.transform.position = ray.GetPoint(distance);

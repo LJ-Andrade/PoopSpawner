@@ -15,8 +15,5 @@ public class PoopSpawner : MonoBehaviour {
             }
         }
 	}
-	
-	void Update () {
-		
-	}
+
 }

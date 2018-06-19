@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - PoopBall
+  - PlayerCamera
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
+  - LocalPlayer
+  - RemotePlayer
+  - DontDraw
   - 
   - 
   - 
